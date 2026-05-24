@@ -15,7 +15,8 @@ model = genai.GenerativeModel('gemini-pro')
 def send_welcome(message):
     welcome_text = (
         "👋 Assalomu alaykum! Interaktiv Quiz Generator botga xush kelibsiz.\n\n"
-        "📝 Menga test savollari bor `.txt` fayl yuboring.\n"
+        "📝 Menga test savollari bor `.txt
+        pdf.docx` fayl yuboring.\n"
         "Men ularni Telegramning haqiqiy, bosiladigan **Quiz (Test)** formatiga oʻtkazib beraman!"
     )
     bot.reply_to(message, welcome_text)
